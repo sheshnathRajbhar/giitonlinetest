@@ -5,7 +5,7 @@ import cors from "cors"
 export const app = express()
 app.use(express.json())
 app.use(cors({
-    origin: ["http://localhost:5173", "https://giitonlinetest.onrender.com"]
+    origin: ["http://localhost:5173", "https://giitonlinetest-12.onrender.com"]
 }))
 
 
