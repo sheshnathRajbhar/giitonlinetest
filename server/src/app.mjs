@@ -5,7 +5,8 @@ import cors from "cors"
 export const app = express()
 app.use(express.json())
 app.use(cors({
-    origin:"https://giitonlinetest-1.onrender.com"
+    origin: ["http://localhost:5173", "https://giitonlinetest.onrender.com"]
 }))
+
 
 app.use("/api/v1/question", questionRouter)
